@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio Made By Harshika </title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/c9296ee6f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Web Developer </p>
+                <h1>Hey....Welcome...!!!! This is<br>
+                    <span> Harshika Saini </span> from India.
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/About.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p>Looking for a software devloper ?<br>
+                        I have done Mastes in Computer Applications from AKGEC,Ghaziabad. Now I am working as a
+                        freelancer in the web devlopment. Currently I am learning all the on-going
+                        technologies like JS, ReactJS, MongoDB, Express.js & tool like GItHub, arcitecture of
+                        different websites like Instagram, Youtube, Netflix, etc. I want a place
+                        where I can work and improve my skillset so that for the betterment of the
+                        organization and myself as a human being in the society to be able to get
+                        a satisfactory lifestyle for me and my family.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skill-Set')">Skill-Set</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Services')">Services</p>
+                        <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skill-Set">
+                        <ul>
+                            <li><span>Front-end</span><br>HTML,CSS,Java Script,REACT</li>
+                            <li><span>Back-end</span><br> Express.js, MongoDB, Node.js</li>
+                            <li><span>Other Skills</span><br>Basics of REST API, Agile Methodology,
+                                MVC Architecture, Data Structures, Multithreading concepts & Java </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>July 2023 - August 2023</span><br>Internship in Web Development- Bharat Intern
+                            </li>
+                            <li><span>July 2019 - August 2019 </span><br>Internship in Java- NobleProg </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Till 2023 M.C.A</span><br> From A.K.T.U</li>
+                            <li><span>Till 2021 B.C.A</span><br> From C.C.S.U</li>
+                            <li><span>Till 2018 Intermediate(10+2)</span><br> From @I.C.S.E</li>
+                            <li><span>Till 2016 High School(10)</span><br> From @I.C.S.E</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Services">
+                        <ul>
+                            <li><span>Front-end</span><br> Devlop & Design Front-End</li>
+                            <li><span>Back-end</span><br> Server & Routes configuration Back-End</li>
+                            <li><span>Deployment</span><br> Website Deployment</li>
+                            <li><span>Maintenence</span><br> Backup and Maintence</li>
+                            <li><span>Features Design</span><br> Exclusive Designing strategies and open to collabrate
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobbies">
+                        <ul>
+                            <li><span>Fond of Improving myself everyday</span><br>Big-Tech gig more into Latest devices
+                            </li>
+                            <li><span>Badminton Lover</span><br> Played in college zonal sports fest</li>
+                            <li><span>Reading Books and Watching Movies </span><br> Based on Real life Stories </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /*---------------Service----------------*/ -->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My service</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX</h2>
+                    <p>
+                        Web designers create the design and layout of a website with their technical expertise and
+                        knowledge while keeping in mind the client's requirements. They have a deep understanding of UI
+                        (user interface)and UX (user experience)
+                    </p>
+                    <a href="https://webdesigner.withgoogle.com/">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Development</h2>
+                    <p>
+                        Web development can range from developing a simple single static page of plain text to complex
+                        web applications, electronic businesses, and social network services. It commonly refers to
+                        include Web engineering, Web design, Web content development,
+                        client-side/server-side .
+                    </p>
+                    <a href="https://blog.hubspot.com/website/website-development">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-photo-film"></i>
+                    <h2>Photography</h2>
+                    <p>
+                        The art of capturing light with a camera, usually via a digital sensor or film, to create an
+                        image. With the right camera equipment, wavelengths of light invisible to the human eye,
+                        including UV, infrared, and radio.<br><br>"There is one thing the photo must contain - the
+                        humanity of the moment.”
+                        by Robert Frank
+                    </p>
+                    <a href="https://photographylife.com/what-is-photography">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /*---------------Portfolio---------------*/ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="./Images/Quiz.jpg">
+                    <div class="layer">
+                        <h3>Quiz Game</h3>
+                        <P>App to play quiz game based on General knowledge. It will give the score based on your
+                            performance.It is made using HTML,CSS & JavaScript.IDE used replit. To play the game click
+                            on the button.
+                        </P>
+                        <a href="https://replit.com/@Harshika09/JSQuiz-hs?embed=1&output=1"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./Images/Birthday.jpg">
+                    <div class="layer">
+                        <h3>Birthday Date Lucky or Not?</h3>
+                        <P>App to check wether your Birthday date is lucky or not by entering your lucky number.It is
+                            made using HTML,CSS & JavaScript.To visit the app click on the button.
+                        </P>
+                        <a href="https://www.amazon.in/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/Emoji.jpg">
+                    <div class="layer">
+                        <h3>Emoji Teller App</h3>
+                        <P>The App helps you to search for the Emoji by typing it's name in search bar or selecting the emoji on
+                            screen. It is made using the React.js and JavaScript. IDE used is codesandbox.
+                        </P>
+                        <a href="https://codesandbox.io/s/github/HarshikaSaini/EmojiTeller"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/HarshikaSaini" class="btn">See more</a>
+        </div>
+
+    </div>
+    <!-- ----------------------contact------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>harshikasaini1415@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>91+ 9718832180</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/harshika0909/?igshid=NGExMmI2YTkyZg=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.quora.com/profile/Harshika-Saini-7"><i class="fa-brands fa-quora"></i></a>
+                        <a href="https://www.linkedin.com/in/harshika-saini-776a95256"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/HarshikaSaini"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Images/Harshika Saini Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fa-solid fa-heart"></i> by Harshika Saini</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
